@@ -1,0 +1,66 @@
+h1, h2 {
+    color: #ff7979;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-size: 16px;
+	font-family: 'Nanum Gothic', sans-serif;;
+}
+
+.grey-card{
+	text-align: center;
+	background-color: #ecf0f1;
+	padding: 10px 0px;
+	margin: 20px auto;
+	box-shadow: 4px 4px grey;
+	border-radius: 4px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.call-to-action  a {
+	text-decoration: none;
+	color: #eb4d4b;
+}
+
+.call-to-action a:hover {
+	background-color: #eb4d4b;
+	color: white;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#photo {
+	height: 150px;
+	border-radius: 75px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
